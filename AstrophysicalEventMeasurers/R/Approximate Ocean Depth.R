@@ -1,3 +1,15 @@
+install.packages("roxygen2")
+library(roxygen2)
+#' @title approximateOceanDepth
+#' @description function allows users to approximate the depth of the ocean, on a planet where ocean mass is small
+#' @param a Fraction of the mass in ocean
+#' @param p Average Planet Density
+#' @param Mp Mass of Planet
+#' @param Pw Density of Water
+#' @return A numeric vector
+
+
+
 approximateOceanDepth <- function(a, p, Mp, Pw)
 {
 
@@ -5,7 +17,3 @@ approximateOceanDepth <- function(a, p, Mp, Pw)
 
 }
 
-#a Fraction of the mass in ocean
-#p Average Planet Density
-#Mp Mass of Planet
-#Pw Density of Water

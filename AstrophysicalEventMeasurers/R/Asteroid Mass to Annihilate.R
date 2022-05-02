@@ -1,3 +1,15 @@
+#' @title asteroidMassToAnnihilate
+#' @description function allows users to calculate the mass of an asteroid, MA, that will annihilate all traces of life on a planet
+#' @param a Fraction of mass of planet in ocean
+#' @param C Specific Heat capacity of Water
+#' @param T Increment to raise temperature by (Celsius)
+#' @param EscapeVelocity of Planet
+#' @param Opik Close Encounter Theory
+#' @param planetMass Mass of Planet
+#' @return A numeric vector
+
+
+
 asteroidMassToAnnihilate <- function(a, C, T, EscapeVelocity, Opik, planetMass)
 {
 
@@ -5,10 +17,3 @@ asteroidMassToAnnihilate <- function(a, C, T, EscapeVelocity, Opik, planetMass)
   return(MA)
 
 }
-
-#a Fraction of mass of planet in ocean
-#C Specific Heat capacity of Water
-#T Increment to raise temperature by (Celsius)
-#Escape Velocity of Planet
-#Opik Opik's Close Encounter Theory
-#planetMass Mass of Planet
