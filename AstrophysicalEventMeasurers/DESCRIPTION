@@ -1,0 +1,11 @@
+Package: AstrophysicalEventMeasurers
+Type: Package
+Title: Astrophysical Event Measurers
+Version: 0.1.0
+Author: Who wrote it
+Maintainer: Benjamin Sajan <sajanb@usf.edu>
+Description: Package runs functions based on formulas to calculate celestial object sizes and requirements.
+License: GNU General Public License
+URL: https://github.com/benjaminsajan/Astrophysical-Event-Measurers
+Encoding: UTF-8
+LazyData: true
